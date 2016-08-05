@@ -140,7 +140,7 @@ echo "################################################################"
 #git clone https://github.com/horst3180/Vertex-Icons ~/.icons/Vertex-Icons
 
 
-packer numix-circle-icon-theme  --noedit
+#packer numix-circle-icon-theme  --noedit
 
 
         # T H E M E S #

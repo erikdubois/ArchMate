@@ -11,4 +11,4 @@ sudo systemctl start gdm.service
 
 echo "Desktop Environment"
 
-sudo pacman -S gnome gnome-extra --noconfirm
+sudo pacman -S mate mate-extra --noconfirm

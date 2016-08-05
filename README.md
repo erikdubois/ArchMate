@@ -232,17 +232,3 @@ run forest run
 printscreen keyboard shortcut
 
 scrot -e ~/Pictures/capt-$(date '+%Y-%m-%d-%H%M%S').png
-
-
-
-
-
-
-
-
-
-
-
-
-
-
