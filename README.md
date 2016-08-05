@@ -1,15 +1,12 @@
-# ArchGnome
+# ArchMate
 
 Installing notes for my personal use.
 
 
 Sardi v 7.2.9 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
-![Screenshots](http://i.imgur.com/uqhiL5h.jpg)
+![Screenshots](http://i.imgur.com/ObfyXcV.jpg)
 
-
-
-![Screenshots](http://i.imgur.com/SintmxK.jpg)
 
 
 # FASE 1
@@ -167,9 +164,8 @@ sudo pacman -S xf86-video-nouveau
 # FASE 4 Desktop environment
 
 
-sudo pacman -S gnome gnome-extra
+sudo pacman -S mate mate-extra
 
-may be also gnome-extra?
 
 
 
