@@ -11,7 +11,7 @@ Sardi v 7.2.9 at [Sourceforge](https://sourceforge.net/projects/sardi/files/)
 
 # FASE 1
 
-Steps to take when installing Gnome from scratch
+Steps to take when installing Mate from scratch
 
 Pop in the latest arch usb
 
@@ -192,7 +192,7 @@ export EDITOR=nano
 
 sudo pacman -S firefox
 
-Surf to https://github.com/erikdubois/ArchGnome
+Surf to https://github.com/erikdubois/ArchMate
 
 If you download the zip
 
@@ -205,7 +205,7 @@ If you work with git
 
 sudo pacman -S git
 
-git clone https://github.com/erikdubois/ArchGnome
+git clone https://github.com/erikdubois/ArchMate
 
 
 Go inside the folder and run every program in there
