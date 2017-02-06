@@ -17,17 +17,48 @@ echo "################################################################"
 
 #Fonts
 
-## sudo pacman -S ttf-ubuntu-font-family --noconfirm --needed conflicts with ttf-google-fonts
-## sudo pacman -S ttf-droid --noconfirm --noconfirm --needed  conflicts with ttf-google-fonts
-## sudo pacman -S ttf-inconsolata --noconfirm --needed        conflicts with ttf-google-fonts
 sudo pacman -S noto-fonts --noconfirm --needed
 
-#file manager
 
-#sudo pacman -S nemo nemo-share nemo-fileroller --noconfirm --needed
 
-# extra extensions to compare files if needed install it
-# packer -S nemo-compare
+echo "################################################################"
+echo "mate-tweak-gtk2"   
+echo "################################################################"
+
+
+package="mate-tweak-gtk2"
+
+#----------------------------------------------------------------------------------
+
+#checking if application is already installed or else install with aur helpers
+if pacman -Qi $package &> /dev/null; then
+
+	echo "################################################################"
+	echo "################## "$package" is already installed"
+	echo "################################################################"
+
+else
+
+	#checking which helper is installed
+	if pacman -Qi packer &> /dev/null; then
+
+		echo "Installing with packer"
+		packer -S --noconfirm --noedit  $package
+
+	elif pacman -Qi pacaur &> /dev/null; then
+		
+		echo "Installing with pacaur"
+		pacaur -S --noconfirm --noedit  $package
+		 	
+	elif pacman -Qi yaourt &> /dev/null; then
+
+		echo "Installing with yaourt"
+		yaourt -S --noconfirm $package
+			  	
+	fi
+
+
+fi
 
 echo "################################################################"
 echo "#########   distro specific software installed  ################"
