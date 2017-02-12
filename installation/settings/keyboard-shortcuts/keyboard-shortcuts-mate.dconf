@@ -1,0 +1,89 @@
+[custom0]
+action='gnome-system-monitor'
+binding='<Primary><Shift>Escape'
+name='gnome-system-monitor'
+
+[custom1]
+action='variety -t'
+binding='<Alt>t'
+name='variety trash wallpaper'
+
+[custom2]
+action='variety -n'
+binding='<Alt>n'
+name='next wallpaper'
+
+[custom3]
+action='variety -p'
+binding='<Alt>p'
+name='previous wallpaper'
+
+[custom4]
+action='variety -f'
+binding='<Alt>f'
+name='wallpaper favorite'
+
+[custom11]
+action='nemo'
+binding='<Primary><Alt>b'
+name='nemo'
+
+[custom12]
+action='subl'
+binding='<Primary><Alt>w'
+name='sublime text'
+
+[custom20]
+action='variety -n'
+binding='<Alt>Right'
+name='variety -n'
+
+[custom13]
+action='inkscape'
+binding='<Primary><Alt>i'
+name='inkscape'
+
+[custom21]
+action='variety -p'
+binding='<Alt>Left'
+name='variety previous'
+
+[custom14]
+action='gimp'
+binding='<Primary><Alt>g'
+name='gimp'
+
+[custom22]
+action='variety --pause'
+binding='<Alt>Up'
+name='variety --pause'
+
+[custom23]
+action='variety --resume'
+binding='<Alt>Down'
+name='variety --resume'
+
+[custom30]
+action='firefox'
+binding='<Primary><Alt>f'
+name='firefox'
+
+[custom16]
+action='evolution'
+binding='<Primary><Alt>e'
+name='evolution'
+
+[custom31]
+action='catfish'
+binding='<Primary><Alt>c'
+name='catfish'
+
+[custom18]
+action='spotify'
+binding='<Primary><Alt>s'
+name='spotify'
+
+[custom19]
+action='gnome-screenshot -i'
+binding='<Primary>Print'
+name='gnome-screenshot interactive'
