@@ -1,0 +1,38 @@
+[Toplevel top]
+orientation=top
+expand=false
+size=24
+
+[Object menu-bar]
+locked=true
+position=0
+panel-right-stick=false
+toplevel-id=top
+applet-iid=
+object-type=menu-bar
+
+[Object launcher]
+locked=false
+position=265
+launcher-location=/usr/share/applications/firefox.desktop
+panel-right-stick=false
+toplevel-id=top
+object-type=launcher
+menu-path=applications:/
+
+[Object notificationarea]
+locked=true
+position=289
+panel-right-stick=false
+toplevel-id=top
+applet-iid=NotificationAreaAppletFactory::NotificationArea
+object-type=applet
+
+[Object clockapplet]
+locked=true
+position=469
+panel-right-stick=false
+toplevel-id=top
+applet-iid=ClockAppletFactory::ClockApplet
+object-type=applet
+
